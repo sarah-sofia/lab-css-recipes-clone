@@ -1,0 +1,59 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/styles/Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+
+
+* {
+    font-family: myFirstFont;
+  }
+
+h1 {
+font-family: myFirstFont;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 210px;
+  font-style:inherit;
+}
+
+header {
+background-image:url(/images/apple-pie.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+height: 500px;
+
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.content {
+margin: auto;
+    color: rgb(46, 46, 46);
+
+}
+
+.img {
+    width: 350px;
+    padding-left: 80px;
+}
+
+hr {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.hidden {
+    color: white
+
+}
+
+#introduction {
+    margin-top: 50px;
+}
